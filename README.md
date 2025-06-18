@@ -55,9 +55,9 @@ erDiagram
 
 
 
-    API Endpoints
+    
 
-🔹 Tender Endpoints
+🔹 API Endpoints
 Method 	     Endpoint	                                           Description
 GET	   /api/Tender/all        	                        Get all tenders.
 GET	   /api/Tender/by-category/{categoryId}	       Get tenders filtered by specific category.
