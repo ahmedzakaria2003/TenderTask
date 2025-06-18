@@ -1,0 +1,6 @@
+@TenderTask_HostAddress = http://localhost:5279
+
+GET {{TenderTask_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
