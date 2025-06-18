@@ -1,33 +1,39 @@
 
-This project is a RESTful API for  categories, companies, and tenders for a government tenders platform in Saudi Arabia.
+This project is a RESTful API for categories, companies, and tenders for a government tenders platform in Saudi Arabia.
 
+---
 
+ 🛠️ Technologies Used
 
-## Technologies Used
+- .NET 8 Web API
+- Entity Framework Core
+- SQL Server
+- AutoMapper
+- Swagger UI – for interactive API documentation
 
- NET 8 Web API**
-  Entity Framework Core**
-  SQL Server 
-  AutoMapper
-  Swagger UI for interactive API docs
+---
+
   
   Running the Project Locally
 
-1. **Clone the repository**
+1. **Clone the repository
    ```bash
    git clone https://github.com/your-username/your-backend-repo.git
    cd your-backend-repo
-
-Restore dependencies
+---
+2. Restore Dependencies
 dotnet restore
 
-Apply database migrations (if using EF Core + SQL Server)
+---
+3. Apply Database Migrations
 dotnet ef database update
 
-
-Run the project
+---
+4. Run the Project
 dotnet run
 
+
+--- 
 erDiagram
     Category ||--o{ Company : contains
     Company ||--o{ Tender : owns
