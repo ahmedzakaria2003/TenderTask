@@ -57,15 +57,27 @@ erDiagram
 
     
 
-🔹 API Endpoints
-Method 	     Endpoint	                                           Description
-GET	   /api/Tender/all        	                        Get all tenders.
-GET	   /api/Tender/by-category/{categoryId}	       Get tenders filtered by specific category.
-GET	  /api/Tender/by-status/{status}	              Get tenders filtered by their status.
-GET	 /api/Tender/category-with-tenders/{categoryId}	Get a category with all related tenders.
-GET	  /api/Tender/get-all-categories	                 Get all available categories.
+## 🔹 API Endpoints
 
-API documentation available at:
+ 📦 Tenders
+
+| Method | Endpoint                                         | Description                                  |
+|--------|--------------------------------------------------|----------------------------------------------|
+| GET    | `/api/Tender/all`                                | Get all tenders                              |
+| GET    | `/api/Tender/by-category/{categoryId}`           | Get tenders filtered by specific category    |
+| GET    | `/api/Tender/by-status/{status}`                 | Get tenders filtered by their status         |
+| GET    | `/api/Tender/category-with-tenders/{categoryId}` | Get a category with all related tenders      |
+
+ 📂 Categories
+
+| Method | Endpoint                            | Description                |
+|--------|-------------------------------------|----------------------------|
+| GET    | `/api/Tender/get-all-categories`    | Get all available categories |
+
+---
+
+📄 API Documentation 
+You can explore and test the API using Swagger at:  
 (http://localhost:5279/swagger/index.html)
 
 
